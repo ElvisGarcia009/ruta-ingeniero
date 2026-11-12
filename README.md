@@ -2,13 +2,15 @@
 
 Material de estudio para aprender lo que no siempre se enseña en la universidad: desde pensar un problema hasta la arquitectura y la infraestructura. Todo en C#.
 
-Cada fase tiene una **guía escrita** (la teoría, las analogías y los ejercicios) y una carpeta en este repositorio con el código.
+Cada fase tiene una **guía escrita** (`GUIA.md`, con la teoría, las analogías y los ejercicios) y el código para practicar en la misma carpeta.
+
+👉 **Empieza aquí: [Guía de la Fase 0](fase-0/GUIA.md)**
 
 ## Fases
 
 | Fase | Tema | Estado |
 | --- | --- | --- |
-| 0 | Pensar como programador | Lista |
+| 0 | [Pensar como programador](fase-0/GUIA.md) | Lista |
 | 1 | Programar bien (POO, código limpio, Git, tests) | Próximamente |
 | 2 | Diseño (SOLID, patrones) | Próximamente |
 | 3 | Datos (SQL, Entity Framework) | Próximamente |
@@ -22,6 +24,7 @@ Cada fase tiene una **guía escrita** (la teoría, las analogías y los ejercici
 ```
 ruta-ingeniero/
 ├── fase-0/
+│   ├── GUIA.md                       ← la guía de la fase: léela primero
 │   ├── leccion-01/ ... leccion-08/   ← ejercicios para completar (busca los // TODO)
 │   └── colmado-v1/                   ← el proyecto final de la fase
 └── soluciones/
