@@ -1,7 +1,7 @@
 // =============================================================
 //  Lección 1: Cómo pensar un problema
-//  Antes de escribir código aquí, resuelve el ejercicio EN PAPEL
-//  (Entrada -> Proceso -> Salida y pseudocódigo).
+//  Antes de escribir código, piensa el ejercicio: Entrada -> Proceso -> Salida
+//  y pseudocódigo (puedes escribirlo como comentarios aquí mismo).
 //  Para correr: abre la terminal en esta carpeta y escribe  dotnet run
 // =============================================================
 

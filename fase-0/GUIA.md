@@ -6,14 +6,13 @@
 
 Esta fase no te enseña cosas nuevas raras: te enseña a **pensar** antes de escribir código. Es la base de todo lo que viene después (bases de datos, APIs, arquitectura). Si esta parte está floja, todo lo demás se cae, como una casa sin zapata.
 
-### Las 6 reglas de oro
+### Las 5 reglas de oro
 
-1. **Papel primero.** Antes de tocar el teclado, escribe en una hoja los pasos para resolver el problema, en español normal. Si no lo puedes explicar en papel, todavía no lo entiendes.
-2. **Predice antes de ejecutar.** Antes de darle a *Run*, escribe qué crees que va a salir en pantalla. Después compara. Cuando fallas una predicción, ahí aprendes de verdad.
-3. **20 minutos solo.** Cuando te trabes, intenta 20 minutos por tu cuenta antes de pedir ayuda: relee el problema, usa el debugger (Lección 7), busca en la documentación oficial.
-4. **Nada de IA para escribir código en esta fase.** La IA es como una calculadora: muy útil cuando ya sabes sumar, peligrosa cuando no. Puedes usarla solo al final, para que *revise* algo que ya hiciste tú y te explique por qué está mal, nunca para que te lo haga.
-5. **Pregúntate siempre "¿y si…?"** ¿Y si el usuario escribe letras en vez de números? ¿Y si la lista está vacía? Esos casos raros se llaman *casos borde* y son donde se rompen los programas de verdad.
-6. **Explica en voz alta.** Cuando algo no funcione, explícale el código línea por línea a alguien (o a un objeto). Se llama *método del patito de goma* y funciona sorprendentemente bien: al explicarlo, tú mismo ves el error.
+1. **Predice antes de ejecutar.** Antes de darle a *Run*, escribe qué crees que va a salir en pantalla. Después compara. Cuando fallas una predicción, ahí aprendes de verdad.
+2. **20 minutos solo.** Cuando te trabes, intenta 20 minutos por tu cuenta antes de pedir ayuda: relee el problema, usa el debugger (Lección 7), busca en la documentación oficial.
+3. **Nada de IA para escribir código en esta fase.** La IA es como una calculadora: muy útil cuando ya sabes sumar, peligrosa cuando no. Puedes usarla solo al final, para que *revise* algo que ya hiciste tú y te explique por qué está mal, nunca para que te lo haga.
+4. **Pregúntate siempre "¿y si…?"** ¿Y si el usuario escribe letras en vez de números? ¿Y si la lista está vacía? Esos casos raros se llaman *casos borde* y son donde se rompen los programas de verdad.
+5. **Explica en voz alta.** Cuando algo no funcione, explícale el código línea por línea a alguien (o a un objeto). Se llama *método del patito de goma* y funciona sorprendentemente bien: al explicarlo, tú mismo ves el error.
 
 ### Cómo está armada cada lección
 
@@ -61,7 +60,7 @@ Cuando el proceso es complicado, lo partes en pedazos más pequeños, y esos ped
 
 Para escribir esos pasos usamos **pseudocódigo**: código "de mentira", en español, sin preocuparnos por puntos y comas. Sirve para pensar sin pelear con el lenguaje.
 
-### El código: del papel a C#
+### El código: del pseudocódigo a C#
 
 Primero, un ejemplo sencillo: el promedio de tres notas.
 
@@ -110,7 +109,7 @@ Todavía no tienes que saber escribir el `PARA CADA` en C# (eso es la Lección 4
 
 ### Ejercicios
 
-Hazlos **en papel**, en pseudocódigo. Los marcados con 💻 pásalos también a C# en `leccion-01`.
+Hazlos primero en pseudocódigo, en comentarios o en un archivo de notas. Los marcados con 💻 pásalos también a C# en `leccion-01`.
 
 - [ ] **1. El robot y el sandwich.** Escribe las instrucciones para hacer un sandwich de jamón y queso como si fuera para el robot literal. Después pídele a alguien que las siga al pie de la letra y anota dónde se rompen.
 - [ ] **2. 💻 Cambio simple.** Pide el total y lo que pagó el cliente. Muestra el cambio. Si pagó menos, muestra cuánto falta.
@@ -204,7 +203,7 @@ Console.WriteLine($"Total con ITBIS: {total * (1 + Itbis):F2}");  // $"" mete va
 
 ### Ejercicios
 
-Predice el resultado en papel **antes** de ejecutarlo. Los 💻 van en `leccion-02`.
+Predice el resultado **antes** de ejecutarlo. Los 💻 van en `leccion-02`.
 
 - [ ] **1. Elige el tipo.** ¿Qué tipo usarías para: la edad de una persona, el precio de un producto, el nombre de un cliente, si un cliente es VIP, la temperatura, la cantidad de productos en inventario, la cédula (¡cuidado!)?
 - [ ] **2. Predice.** ¿Qué imprime cada línea? `10 / 4`, `10 % 4`, `10.0 / 4`, `"10" + 4`, `10 + 4 + "10"`, `"10" + 10 + 4`.
@@ -303,7 +302,7 @@ Console.WriteLine(mensaje);
 
 ### Ejercicios
 
-Todos van en `leccion-03` 💻. Antes de programar cada uno, escribe en papel qué valores vas a usar para probarlo (incluyendo los bordes).
+Todos van en `leccion-03` 💻. Antes de programar cada uno, anota qué valores vas a usar para probarlo (incluyendo los bordes).
 
 - [ ] **1. Nota a letra.** Pide una nota de 0 a 100 y muestra la letra: A (90–100), B (80–89), C (70–79), D (60–69), F (menos de 60). Si la nota es menor que 0 o mayor que 100, muestra "Nota inválida".
 - [ ] **2. Año bisiesto en C#.** Pasa a C# el pseudocódigo que hiciste en la Lección 1. Intenta escribir la condición completa en un solo `if` usando `&&` y `||`.
@@ -432,7 +431,7 @@ Compara este código con el pseudocódigo de la Lección 1: es casi línea por l
 
 ### Ejercicios
 
-Todos en `leccion-04` 💻. Antes de ejecutar, haz una **prueba de escritorio**: una tabla en papel con una columna por variable y una fila por vuelta, anotando cómo cambian los valores.
+Todos en `leccion-04` 💻. Antes de ejecutar, haz una **prueba de escritorio**: una tabla (en un archivo de notas, en Excel o en comentarios) con una columna por variable y una fila por vuelta, anotando cómo cambian los valores.
 
 - [ ] **1. Suma del 1 al N.** Pide N y muestra la suma 1 + 2 + … + N. Prueba con N = 5 (debe dar 15).
 - [ ] **2. FizzBuzz.** Imprime del 1 al 100. Si el número es múltiplo de 3, imprime "Fizz"; si es de 5, "Buzz"; si es de los dos, "FizzBuzz". Es una pregunta clásica de entrevista. Pista: piensa en el orden de los `if` (Lección 3).
@@ -876,7 +875,7 @@ Todos en `leccion-08` 💻.
 - [ ] **2. `PedirOpcion(int min, int max)`.** Pide un número y solo lo acepta si está entre `min` y `max`. Úsalo para un menú de 4 opciones.
 - [ ] **3. Calculadora a prueba de todo.** Toma tu calculadora de la Lección 3 y haz que nada la tumbe: ni letras, ni división entre cero, ni operaciones que no existen.
 - [ ] **4. Rompe tu propio programa.** Elige un ejercicio tuyo anterior e intenta tumbarlo de todas las formas posibles: texto vacío, letras, números gigantes como 99999999999, negativos, espacios. Anota cada forma que funcionó y arréglala.
-- [ ] **5. Lista de "¿y si…?".** En papel: escribe al menos 10 cosas que podrían salir mal en el programa del colmado (la Lección 9). Esa lista será tu guía de pruebas.
+- [ ] **5. Lista de "¿y si…?".** Escribe al menos 10 cosas que podrían salir mal en el programa del colmado (la Lección 9). Esa lista será tu guía de pruebas.
 
 ### Encuentra el error
 
@@ -954,7 +953,7 @@ El programa arranca con estos productos ya cargados: Arroz (RD$ 45, 50 unidades)
 
 En `colmado-v1` tienes un esqueleto con los métodos vacíos y comentarios `// TODO`. Hazlo en este orden y **prueba cada paso antes de pasar al siguiente**:
 
-- [ ] **Paso 1. Papel.** Escribe en pseudocódigo el menú principal y la opción "Vender" completa.
+- [ ] **Paso 1. Planifica.** Escribe en pseudocódigo el menú principal y la opción "Vender" completa.
 - [ ] **Paso 2. El menú.** Haz que el menú se muestre, lea la opción con `PedirEnteroEnRango` y se repita hasta elegir 5. Por ahora cada opción solo imprime su nombre.
 - [ ] **Paso 3. Ver productos.** Muestra la tabla de productos. Pista: `{nombre,-15}` en un texto con `$` rellena con espacios hasta 15 caracteres, y así las columnas quedan alineadas.
 - [ ] **Paso 4. Agregar producto.** Con todas sus validaciones.
@@ -1000,7 +999,7 @@ Estás listo para la Fase 1 cuando puedes hacer todo esto **sin ayuda y sin IA**
 - [ ] Predigo el resultado de `7 / 2`, `7 % 2` y `"7" + 2` sin ejecutar.
 - [ ] Sé por qué importa el orden de los `else if` y pruebo siempre los valores del borde.
 - [ ] Elijo entre `for`, `while` y `foreach` y explico por qué.
-- [ ] Hago una prueba de escritorio de un bucle en papel.
+- [ ] Hago una prueba de escritorio de un bucle sin ejecutarlo.
 - [ ] Recorro una lista y encuentro el mayor, el menor y el promedio sin funciones ya hechas.
 - [ ] Divido un programa en métodos con nombres claros, y separo calcular de mostrar.
 - [ ] Uso el debugger con breakpoints, paso a paso y breakpoints condicionales para encontrar un error.

@@ -1,6 +1,6 @@
 // =============================================================
 //  Lección 3: Decisiones
-//  Antes de programar cada ejercicio, anota en papel los valores
+//  Antes de programar cada ejercicio, anota los valores
 //  con los que lo vas a probar. ¡Incluye los bordes! (59, 60, 61...)
 // =============================================================
 

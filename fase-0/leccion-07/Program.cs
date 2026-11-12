@@ -4,7 +4,7 @@
 //  Este programa tiene 3 ERRORES escondidos.
 //  Regla: NO los busques leyendo. Encuéntralos con el debugger:
 //    1. Pon un breakpoint (F9) en la primera línea de cada método.
-//    2. Antes de avanzar, escribe en papel qué valor esperas.
+//    2. Antes de avanzar, anota qué valor esperas.
 //    3. Avanza con F10 / F11 y compara con la ventana de variables.
 //
 //  Resultados CORRECTOS que debería mostrar:

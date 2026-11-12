@@ -1,6 +1,6 @@
 // =============================================================
 //  Lección 2: Variables y tipos
-//  Regla: antes de ejecutar, escribe en papel qué esperas que salga.
+//  Regla: antes de ejecutar, anota qué esperas que salga.
 // =============================================================
 
 Console.WriteLine("Lección 2 - ¿Qué ejercicio quieres correr?");

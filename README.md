@@ -47,11 +47,10 @@ ruta-ingeniero/
 
 ## Las reglas de oro
 
-1. Papel primero.
-2. Predice antes de ejecutar.
-3. 20 minutos solo antes de pedir ayuda.
-4. Nada de IA para escribir el código. Solo para revisar algo que ya hiciste tú.
-5. Pregúntate siempre "¿y si…?".
-6. Explica tu código en voz alta.
+1. Predice antes de ejecutar.
+2. 20 minutos solo antes de pedir ayuda.
+3. Nada de IA para escribir el código. Solo para revisar algo que ya hiciste tú.
+4. Pregúntate siempre "¿y si…?".
+5. Explica tu código en voz alta.
 
 Las soluciones están para comparar, no para copiar. Ábrelas solo después de haberlo intentado de verdad.

@@ -1,6 +1,6 @@
 // =============================================================
 //  Lección 4: Repetir
-//  Antes de ejecutar, haz la PRUEBA DE ESCRITORIO en papel:
+//  Antes de ejecutar, haz la PRUEBA DE ESCRITORIO (en notas o en Excel):
 //  una columna por variable, una fila por vuelta del bucle.
 // =============================================================
 
